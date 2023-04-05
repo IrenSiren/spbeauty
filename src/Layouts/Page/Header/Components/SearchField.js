@@ -23,10 +23,10 @@ const Input = styled.input`
 `;
 
 const SearchIconWrapper = styled.div`
-    background-color: #F8FAFC;
+    background-color: rgba(248,250,252, 0);
     position: absolute;
     box-sizing:border-box;
-    right: 0px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
+    right: 16px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
     top:50%;
     transform: translateY(-50%);
 `;
@@ -34,7 +34,7 @@ const SearchIconWrapper = styled.div`
 function SearchField() {
     return (
         <WrapperInput className='d-inline-flex'>  {/* Устанавливает ширину поля и включает относительное положение */}
-            <Input className='p-2' placeholder='Найти на странице...'/>
+            <Input className='p-2' placeholder='Найти...'/>
             <SearchIconWrapper className='p-2'>  {/* Устанавливает абсолютное положение внутри поля ввода */}
                 <IconOnlyButton icon={<SearchIcon/>}/>
             </SearchIconWrapper>

@@ -7,9 +7,11 @@ import IconOnlyButton from '../../../../../Components/IconOnlyButton.js';
 const Option = styled.div`
     outline: none;
     border-radius: 0px;
-    border: solid #152842 1px;
-    background-color: #D9E2EF;
-    color: #666787;
+    background-color: #FFFFF;
+    color: #0F172A;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Inter;
 `;
 
 function ListElement(props) {
