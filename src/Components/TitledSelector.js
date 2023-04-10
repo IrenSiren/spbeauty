@@ -17,7 +17,6 @@ const Select = styled.select`
 `;
 
 function TitledSelector({title, options}) {
-     // Здесь устанавливается минимальная ширина для кнопки
      let minWidth = title.minWidth === undefined ? '447px' : title.minWidth; 
      let maxWidth = title.maxWidth === undefined ? '447px' : title.maxWidth;
     const Title = title === undefined ? 
@@ -25,7 +24,7 @@ function TitledSelector({title, options}) {
         (<div>{title}</div>);
     return (
         <div className='d-inline-flex flex-column gap-2'>
-            {Title}
+            <div className='caption-rg'> {Title}</div>
             <Select className='p-2'>
                 {options.map(optionName => {
                     return (

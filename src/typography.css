@@ -3,7 +3,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.title{
+  color: #0F172A;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
 
+.mb-1{
+  color: #64748B;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.text-rg{
+  color: #0F172A;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
 .large-title {
   font-family: Inter;
   font-weight: 600;
@@ -46,9 +66,21 @@ input,
   line-height: 16px;
 }
 
-.caption {
+.caption-md {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.caption-rg {
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
+  color: #94A3B8;
+}
+
+.caption-sm {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 8px;
 }
 

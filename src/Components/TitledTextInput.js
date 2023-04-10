@@ -7,7 +7,7 @@ const Input = styled.input`
     background-color: #F8FAFC;
     color: #0F172A;
     &:hover {
-        background-color: #D9E2EFB8;
+       
     }
 `;
 
@@ -16,8 +16,8 @@ function TitledTextInput({title, def}) {
         (<div></div>) : 
         (<div>{title}</div>);
     return (
-        <div className='d-flex flex-column gap-2'>
-            {Title}
+        <div className='d-flex flex-column gap-2 py-2'>
+            <div className='caption-rg'> {Title} </div>
             <Input className='p-2' defaultValue={def} ></Input>
         </div>
     );
