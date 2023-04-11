@@ -14,7 +14,8 @@ function PrimaryButton(props) {
         color: white;
         border-radius: 24px;
         &:hover {
-            background: #5894F4;
+            background: #629BF8;
+            border: 1px solid #629BF8;  
         }
         &:active {
             background: rgba(248,250,252);

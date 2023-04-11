@@ -18,7 +18,7 @@ function SecondaryButton(props) {
         }
         &:active {
             background: #FFFFFF;
-            color: A2ACB9;
+            color: #A2ACB9;
         }
     `;
     return (

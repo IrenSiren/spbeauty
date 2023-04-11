@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -63,7 +63,7 @@ input,
 .text-rg {
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 18px;
 }
 
 .caption-md {

@@ -12,7 +12,7 @@ const Select = styled.select`
     background-color: #F8FAFC    ;
     color: #0F172A;
     &:hover {
-        background-color: #D9E2EFB8;
+        background-color: #F8FAFC;
     }
 `;
 
@@ -21,10 +21,10 @@ function TitledSelector({title, options}) {
      let maxWidth = title.maxWidth === undefined ? '447px' : title.maxWidth;
     const Title = title === undefined ? 
         (<div></div>) : 
-        (<div>{title}</div>);
+        (<div className='caption-rg'>{title}</div>);
     return (
         <div className='d-inline-flex flex-column gap-2'>
-            <div className='caption-rg'> {Title}</div>
+            <div> {Title}</div>
             <Select className='p-2'>
                 {options.map(optionName => {
                     return (
