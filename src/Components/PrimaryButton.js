@@ -18,7 +18,7 @@ function PrimaryButton(props) {
             border: 1px solid #629BF8;  
         }
         &:active {
-            background: rgba(248,250,252);
+            background: #0F172A;
         }
     `;
     return (
